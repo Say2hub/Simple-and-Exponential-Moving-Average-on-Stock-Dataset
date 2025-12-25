@@ -74,5 +74,13 @@ monthly['EMA_20'] = monthly.groupby('ticker')['close'].transform(
 )
 ```
 
+## 📦 requirements.txt
+
+```txt
+pandas>=1.5.0        
+numpy>=1.21.0         
+jupyter>=1.0.0          
+matplotlib>=3.5.0       
+```
 
 
