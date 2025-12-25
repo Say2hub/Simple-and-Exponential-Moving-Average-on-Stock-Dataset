@@ -14,6 +14,30 @@ The notebook performs:
 - **Tickers** (10 unique): AAPL, AVGO, CSCO, PEP, TMUS, TSLA, and others
 - **Date Range**: Approximately 2018 to 2019 (daily data)
 
+  
+## 📁Repository Structure (With Your Current Setup)
+
+Since you already have your notebook inside an `analysis` folder, here's a clean and professional structure that incorporates it:
+
+```plaintext
+simple-ema-assignment/                 # Root of your repository
+├── analysis/
+│   └── fam_assignment.ipynb           # Your main Jupyter Notebook (analysis code)
+├── dataset/
+│   └── output_file.csv                # Raw daily stock data (input)
+├── results/
+│   ├── result_AAPL.csv                # Monthly data + SMA/EMA for each ticker
+│   ├── result_AVGO.csv
+│   ├── result_CSCO.csv
+│   ├── result_PEP.csv
+│   ├── result_TMUS.csv
+│   ├── result_TSLA.csv
+│   └── ...                            # Results for remaining tickers
+├── README.md                          # Project documentation (this file)
+├── requirements.txt                   # Python dependencies
+└── .gitignore                         # Files/folders to ignore
+```
+
 ## 📊 Results Analysis
 
 After running the notebook, monthly aggregated stock data is generated for each ticker and saved as individual CSV files (`result_{ticker}.csv`).
