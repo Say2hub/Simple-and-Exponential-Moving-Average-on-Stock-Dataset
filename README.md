@@ -20,22 +20,21 @@ The notebook performs:
 Since you already have your notebook inside an `analysis` folder, here's a clean and professional structure that incorporates it:
 
 ```plaintext
-simple-ema-assignment/                 # Root of your repository
+Simple-and-exponential-moving-average-on-Stock-Dataset/                
 ├── analysis/
-│   └── fam_assignment.ipynb           # Your main Jupyter Notebook (analysis code)
+│   └── fam_assignment.ipynb           
 ├── dataset/
-│   └── output_file.csv                # Raw daily stock data (input)
+│   └── output_file.csv                
 ├── results/
-│   ├── result_AAPL.csv                # Monthly data + SMA/EMA for each ticker
+│   ├── result_AAPL.csv                
 │   ├── result_AVGO.csv
 │   ├── result_CSCO.csv
 │   ├── result_PEP.csv
 │   ├── result_TMUS.csv
 │   ├── result_TSLA.csv
 │   └── ...                            # Results for remaining tickers
-├── README.md                          # Project documentation (this file)
-├── requirements.txt                   # Python dependencies
-└── .gitignore                         # Files/folders to ignore
+├── README.md                          # Project documentation 
+├── requirements.txt                   # Python dependencies                       
 ```
 
 ## 📊 Results Analysis
