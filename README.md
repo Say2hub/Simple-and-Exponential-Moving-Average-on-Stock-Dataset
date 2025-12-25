@@ -15,9 +15,7 @@ The notebook performs:
 - **Date Range**: Approximately 2018 to 2019 (daily data)
 
   
-## 📁Repository Structure (With Your Current Setup)
-
-Since you already have your notebook inside an `analysis` folder, here's a clean and professional structure that incorporates it:
+## 📁Repository Structure
 
 ```plaintext
 Simple-and-exponential-moving-average-on-Stock-Dataset/                
